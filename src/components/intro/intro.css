@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;  
+    /* position: relative;
+    padding-top: 8rem;
+    padding-bottom: 8rem;  */
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+     /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);    
+    background: #ECE9E6;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); */
+    
+
+    
+}
+
+
+.box-intro img{
+   
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 15%;   
+}
+
+
+
+
+
+.contenu  {
+    color: #fff;
+    font-size: 6rem;
+    font-family: 'Lobster';
+    /* text-transform: uppercase; */
+    background-image: linear-gradient(
+      -200deg,
+      #b6a528fe 0%,
+      #dca50f 29%,
+      #dcdcdc 60%,
+      #ffa200 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear infinite;
+    display: inline-block;
+    backdrop-filter: blur(15px);
+        
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+
+h1 {
+    padding-top: 8%;
+}
+
+
+
+.description{
+    font-family: 'Lobster';
+    color:#fff;
+    font-size: 3rem;
+    /* font-weight: 400; */
+    
+    
+}
+
+
+
+
+#intro p {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+    color: #fff;
+   
+  
+}
+
+.lien-contact a{
+    
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #dda50d;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+    transition:all ease 1s;
+    background-size: 600% 600%;
+    background-position: -100% -50%;
+    border-radius: 0 23px 0 23px;
+}
+
+.lien-contact a:hover{
+    border-radius: 23px 0 23px 0;
+    background-position: 100% 50%;
+    background-color: #dda50d;
+    color: #fff;
+    
+}
+
+.social {
+    margin-top: 5%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
