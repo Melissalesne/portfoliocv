@@ -30,9 +30,10 @@
 }
 
 .titre-photo {
-    margin-top: 5%;
+    margin-top: 3%;
     font-family: 'Playfair Display', serif;
     color:#fff;
+    font-size: 3rem;
 }
 
 .card-photo:before,

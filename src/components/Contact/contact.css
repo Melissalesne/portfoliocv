@@ -5,9 +5,10 @@
     margin-top: 8%;
     margin-bottom: 50px !important;
     padding: 40px;
-    background:#202020;
+    /* background:#202020; */
+    background: rgba(63, 63, 63, 0.4);
+    box-shadow: 0 15px 25px rgba(48, 48, 48, 0.5);
     color: #febf12;
-    /* box-shadow: 6px 6px 12px #b1b3b8, -6px -6px 12px #eff2f8; */
     border-radius: 10px;
     
     
@@ -51,7 +52,7 @@
     width: 100%;
     margin-top: 10px;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 20px;
     background: #ecf0f3;
     box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
    
@@ -63,7 +64,7 @@
     color: #febf12;
     background-color: #333;
     cursor: pointer;
-    border-radius: 23px 0 23px 0;
+    border-radius: 23px 0 23px 0!important;
     font-family: 'Aclonica', sans-serif;
     transition:all ease 1s;
     background-size: 400% 400%;
@@ -72,13 +73,10 @@
     font-size: 2rem!important;
   }
   
-  .blob{
-    width: 150px;
-    height: 150px;
-  }
+
   button:hover{
     
-      border-radius: 0 23px 0 23px;
+      border-radius: 0 23px 0 23px!important;
       background-position: 100% 50%;
       
   }

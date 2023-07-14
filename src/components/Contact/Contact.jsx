@@ -124,7 +124,7 @@ const ContactForm = () => {
                 <br />
                 <textarea
                   className="message-contact  "
-                  placeholder="Merci de renseigner vos questions ou commentaires"
+                  placeholder="Votre message..."
                   id="message"
                   cols="50"
                   rows="10"
@@ -140,7 +140,7 @@ const ContactForm = () => {
               <div id="contact"></div>
 
               <div className="form-group">
-                <button className="" type="Submit" value="Envoyer">
+                <button type="Submit" value="Envoyer">
                   Envoyer
                 </button>
               </div>
@@ -148,7 +148,6 @@ const ContactForm = () => {
           </form>
         </div>
       </div>
-    
     </div>
   );
 };
